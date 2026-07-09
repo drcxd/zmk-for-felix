@@ -97,6 +97,15 @@ As such, those are in use within the default layer at this time.*/
         altf4 {
             bindings = <&kp LA(F4)>;
             key-positions = <29 30>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <500>;
+        };
+
+        tog3 {
+            bindings = <&tog 3>;
+            key-positions = <36 49>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <500>;
         };
     };
 
