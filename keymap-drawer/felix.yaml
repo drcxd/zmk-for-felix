@@ -263,3 +263,5 @@ layers:
 combos:
 - p: [29, 30]
   k: Alt+F4
+- p: [36, 49]
+  k: {t: SYS, h: toggle}
